@@ -1,0 +1,25 @@
+{
+  "name": "ai-customer-support-agent",
+  "version": "1.0.0",
+  "description": "Modern, Full-Stack AI-Powered Customer Support Agent with React, Node.js/Express, MongoDB, and Knowledge Base",
+  "type": "module",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "test": "cd backend && npm test",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "ai-agent",
+    "customer-support",
+    "react",
+    "nodejs",
+    "mongodb",
+    "knowledge-base",
+    "llm",
+    "rag"
+  ],
+  "author": "Antigravity Team",
+  "license": "MIT"
+}
